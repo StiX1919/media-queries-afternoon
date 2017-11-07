@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+}
+
+.app {
+    background: url('https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg') no-repeat center;
+    background-size: cover;
+    height: 759px;
+    width: 100%;
+
+
+}
+
+#header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+
+.title {
+    color: #fed136;
+    font-size: 28px;
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+}
+
+h6 {
+        font-size: 90%;
+    font-weight: 400;
+    padding: .75em 0;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+#bar {
+    height: 100px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+#links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%
+}
+
+#menu {
+    display: none;
+}
+
+#body {
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 0px;
+    flex-direction: column;
+    height: 100 vh;
+    width: 100%;
+    color: white;
+}
+
+h2 {
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+h1 {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    display: flex;
+    text-align: center
+
+}
+
+.button {
+        font-size: 18px;
+    padding: 20px 40px;
+    background: #fed136;
+    border-radius: 3px;
+    font-weight: 700;
+    color: white;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif
+}
+
+@media (max-width: 990px){
+    .app {
+        height: 834px;
+    }
+
+    #header {
+        height: 60px;
+        background: #212529;
+    }
+    #bar {
+        height: 60px;
+        width: 80%
+    }
+    .title {
+        font-size: 19px;
+    }
+    #links {
+        display: none;
+    }
+    #menu {
+        display: flex;
+        height: 50px;
+        width: 90px;
+        background: #fed136;
+        justify-content: space-around;
+        border-radius: 3px;
+
+    }
+    .dropdown {
+        max-width: 45px;
+        height: 45px;
+        margin-top: 5px; 
+        background: url("https://images.vexels.com/media/users/3/127209/isolated/preview/60b984a9bb7b2e6d74b430b8260fa798-blue-red-hamburger-by-vexels.png");
+        background-size: cover;
+    }
+
+    .body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 0px;
+        height: 430px;
+        width: 690px;
+    }
+}
+
+@media (max-width: 768px){
+    .app {
+        height: 491px;
+        background-size: cover;
+    }
+    #bar {
+        width: 70%;
+    }
+    .body {
+        height: 241px;
+        width: 510px;
+    }
+    h2 {
+        font-size: 22px;
+        font-style: italic;
+        margin-top: 0px;
+        max-height: 22px;
+    }
+    h1 {
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 25px;
+        margin-top: 0px;
+    }
+}
